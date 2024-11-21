@@ -26,8 +26,8 @@ int main(){
     
     cout<<"enter real and imaginary part of complex number: ";
     cin>>c1;
-    // cout<<"enter real and imaginary part of complex number: ";
-    // cin>>c2;
+    cout<<"enter real and imaginary part of complex number: ";
+    cin>>c2;
     
     ofstream outfile("complex.txt");
     outfile<<c1;
