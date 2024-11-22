@@ -27,10 +27,9 @@ class proxyatt{
             a = 0;
         }
         void proxycalling(){
-            if(a==0){
+            if(a==0)
                 a = new Attendance(rollno);
-                a->attcalling();
-            }
+            a->attcalling();
         }
         ~proxyatt(){
             delete a;
