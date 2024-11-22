@@ -34,7 +34,7 @@ class proxyatt{
         }
         ~proxyatt(){
             delete a;
-            cout<<"Destructor of proxyatt"<<endl;
+            cout<<"Destructor of proxyatt"<<rollno<<endl;
         }
 };
 
