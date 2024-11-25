@@ -31,6 +31,7 @@ int main(){
     
     ofstream outfile("complex.txt");
     outfile<<c1;
+    outfile<<c2;
     outfile.close();
     
     ifstream infile("complex.txt");
