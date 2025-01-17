@@ -26,7 +26,7 @@ class complex {
         }
          
         bool operator == (complex& c) {
-            if ( this->real == c.real || this->img == c.img) {
+            if ( this->real == c.real && this->img == c.img) {
                 return true;
             }
             return false;
